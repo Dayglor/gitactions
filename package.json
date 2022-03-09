@@ -1,0 +1,38 @@
+{
+  "name": "gitactions",
+  "version": "1.0.0",
+  "description": "testing how git actions works",
+  "main": "index",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon src/server.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dayglor/gitactions.git"
+  },
+  "keywords": [
+    "gitactions"
+  ],
+  "author": "Dayglor Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dayglor/gitactions/issues"
+  },
+  "homepage": "https://github.com/Dayglor/gitactions#readme",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/eslint-plugin": "^7.16.5",
+    "@typescript-eslint/parser": "^5.14.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^0.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "eslint": "^8.10.0",
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3",
+    "typescript": "^4.6.2"
+  }
+}
