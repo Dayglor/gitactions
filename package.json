@@ -24,9 +24,12 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@babel/eslint-plugin": "^7.16.5",
+    "@types/express": "^4.17.13",
     "@typescript-eslint/parser": "^5.14.0",
+    "cors": "^2.8.5",
     "eslint-config-airbnb-base": "^15.0.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.2.5"
   },
   "devDependencies": {
     "@eslint/create-config": "^0.1.2",
