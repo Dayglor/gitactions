@@ -25,6 +25,7 @@
     "@babel/eslint-parser": "^7.17.0",
     "@babel/eslint-plugin": "^7.16.5",
     "@typescript-eslint/parser": "^5.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "express": "^4.17.3"
   },
   "devDependencies": {
