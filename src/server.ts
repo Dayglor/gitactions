@@ -1,10 +1,6 @@
-const a: number = 5;
-
-const teste;
+const a = 5
 
 console.log(a)
 
-
 console.log('modified')
-
-
+module.exports = {}
